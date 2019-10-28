@@ -34,3 +34,19 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.section1{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
+.section2{
+    background-image: url(imgSection1.jpg);
+    background-repeat: no-repeat;
+}
+.contenu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
