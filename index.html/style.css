@@ -10,7 +10,7 @@ border: 1px solid;
 header{
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    background-color: rgb(19, 148, 148);
 }
 .logo{
     font-family: sans-serif;
