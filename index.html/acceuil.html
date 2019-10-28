@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .cadre{
+        border: 1px solid;
+        align-self: center;
+    }
+    .titre{
+        text-align: center;
+    }
+
+</style>
+<body>
+    <div class="cadre"><h1 class="titre">Mon super site</h1></div>
+    <form action="traiter.php" method="get" enctype="multipart/form-data">
+            <table border="1px" align="center">
+                    <tr>
+                        <h2 class="titre">Inscription</h2>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Nom</label>
+                        </td>
+                        <td></td>
+                        <td><input type="text"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Prenom</label>
+                        </td>
+                        <td></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">E-mail</label>
+                        </td>
+                        <td></td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Genre</label>
+                        </td>
+                        <td></td>
+                        <td><input name="genre" type="radio" id="1">
+                            <input name="genre" type="radio" id="2">
+                        </td>
+                    </tr>
+                    <tr>
+                       <td>
+                            <label for="">Photo</label>
+                        </td>
+                        <td></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Choix</label>
+                        </td>
+                        <td></td>
+                        <td>
+                            <label for="">
+                                <section>Developpement web/mobile<input type="checkbox"></section>
+                                <section>webmaster<input type="checkbox"></section>
+                                <section>Inphographie<input type="checkbox"></section>
+                            </label>
+                        </td>
+                    </tr>
+            </table>
+    </form>
+</body>
+</html>
